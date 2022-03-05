@@ -1,0 +1,119 @@
+
+
+
+
+
+
+/* Medium ≥768px Tablet Display */
+@media(max-width: 767px) {
+
+
+/* header  */
+
+    .header_des_contant h3 a {
+        font-size: 9px !important;
+    margin: 0px 4px !important;
+    }
+    .header_wrap{
+        padding: 7px 0px !important;
+    }
+    .header_input input {
+        width: 60% !important;
+        padding: 6px 10px !important;
+        font-size: 12px !important;
+    }
+
+    .serch {
+        padding: 6px 10px !important;
+        font-size: 17px !important;
+    }
+    .h_cart {
+        font-size: 15px !important;
+        padding-left: 9px !important;
+    }
+    .header_logo{
+        width: 30% !important;
+    }
+    .header_input{
+        width: 40% !important;
+    }
+    .header_s_img{
+        width: 30% !important;
+    }
+
+    .happy_down{
+        padding: 5px 0px !important;
+    }
+    .happy_down a {
+        font-size: 0px !important;
+        width: 8% !important;
+        padding: 0px 0px 0px 0px !important;
+        margin-top: 5px;
+    }
+    .customer_wrapper{
+        flex-direction: column-reverse;
+    }
+    .customer_right{
+        width: 100% !important;
+        padding-bottom: 20px;
+    }
+    .customer_left{
+        width: 100% !important;
+    }
+    .customer_r_q{
+     justify-content: center;
+    }
+
+}
+
+/* Small ≥576px Mobile Display */
+@media (max-width: 575px) {
+    .heder_des {
+        display: none;
+    }
+    .header_s_img{
+        display: none;
+    }
+
+    #header{
+        top: 0px !important;
+    }
+   .payment{
+       display: none;
+   }
+.man{
+    display: none !important;
+}
+.experience_wrap{
+    justify-content: space-evenly !important;
+
+}
+.experience_single{
+    width: 45% !important;
+}
+
+
+
+
+
+}
+
+@media (max-width: 500px){
+    .customer_r_app img {
+        width: 100px !important;
+        height: 40px !important;
+        padding-right: 10px !important;
+    }
+    .flash_head_left p:first-child{
+        font-size: 0px !important; 
+    }
+    .flash_head{
+        padding: 10px 0px !important;
+    }
+}
+
+/* @media (max-width: 376px){
+    .flash_head_left p:last-child{
+        font-size: 0px !important;
+    }
+} */
